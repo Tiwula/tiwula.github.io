@@ -101,7 +101,16 @@
             cursor: help;
         }
 
+        .term-link:active {
+            text-decoration: none;
+        }
+
         .term-link-1 {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .term-link-1:active {
             color: #fff;
             text-decoration: none;
         }
@@ -118,6 +127,23 @@
             border-color: #8a48f3;
             background-color: #8a48f3; /* Цвет фона */
             
+        }
+
+        .button:active {
+            margin: 5px;
+            text-decoration: none; /* Убираем подчеркивание */
+            transition: color 0.3s ease; /* Плавное изменение цвета */
+            display: block; /* Размещение ссылки как блочного элемента */
+            padding: 5px 10px; /* Поля вокруг текста ссылки */
+            background-color: #00000000; /* Цвет фона */
+            color: #8a48f3; /* Цвет текста */
+            border-radius: 5px; /* Скругление углов */
+            border-style: solid;
+            border-color: #8a48f3;
+            text-align: center; /* Выравнивание текста по центру */
+            transition: background-color 0.3s ease; /* Плавное изменение цвета фона */
+            cursor: pointer;
+            user-select: none;
         }
 
         /* Стиль для посещённых ссылок */

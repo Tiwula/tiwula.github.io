@@ -138,13 +138,8 @@
             <a class="button" href="https://t.me/tiuwula" target="_blank">Telegram</a>
             <a class="button" href="https://t.me/tiuwula_purring" target="_blank">Telegram Channel</a>
             <a class="button" href="https://www.twitch.tv/tiuwula" target="_blank">Twitch</a>
-            <a class="button" onclick="copyText()">[Matrix] (click to copy)</a>
+            <a class="button" onclick="navigator.clipboard.writeText('@danilus_:matrix.org')">[Matrix] (click to copy)</a>
         </div>
     </div>
-    <script>
-        function copyText() {
-            navigator.clipboard.writeText("@danilus_:matrix.org").then(function() {}).catch(function() {});
-        }
-    </script>
 </body>
 </html>
